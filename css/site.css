@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-    font-size:2.8rem;
+    font-size:2.4rem;
 }
 h2{
     font-size:2.5rem;
@@ -36,6 +36,12 @@ a:focus,
 a:active,
 a:hover:active{
     color: #be003c;
+}
+
+@media (min-width:767px){
+    h1{
+        font-size:2.8rem;
+    }
 }
 
 .btn-primary{
@@ -156,10 +162,13 @@ main{
 .sc-land{
     background: #0077ff;
     color: #fff;
-    padding:50px 0;
+    padding:25px 0;
 }
-
-
+@media (min-width:768px){
+    .sc-land{
+        padding:50px 0;
+    }
+}
 .sc-service-item{
     text-align: center;
 }
