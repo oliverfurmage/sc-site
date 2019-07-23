@@ -28,14 +28,14 @@ h2{
 }
 
 a{
-    color: #ff0050; 
+    color: #e73e3a; 
     cursor: pointer;
 }
 a:hover,
 a:focus,
 a:active,
 a:hover:active{
-    color: #be003c;
+    color: #960b08;
 }
 
 @media (min-width:767px){
@@ -45,34 +45,34 @@ a:hover:active{
 }
 
 .btn-primary{
-    background-color: #ff0050;
-    border-color: #ff0050;
+    background-color: #e73e3a;
+    border-color: #e73e3a;
     color: #fff;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:hover:active{
-    background-color: #be003c;
-    border-color: #be003c;
+    background-color: #960b08;
+    border-color: #960b08;
 }
 .btn-white{
     background-color: #fff;
     border-color: #fff;
-    color: #ff0050;
+    color: #e73e3a;
 }
 .btn-white:hover,
 .btn-white:focus,
 .btn-white:active,
 .btn-white:hover:active{
-    background-color: #be003c;
-    border-color: #be003c;
+    background-color: #960b08;
+    border-color: #960b08;
     color: #fff;
 }
 
 header{
     padding:30px 0 0;
-    border-bottom: 5px solid #ff0050;
+    border-bottom: 5px solid #e73e3a;
 }
 
 .header-logo{
@@ -95,7 +95,7 @@ header{
 }
 .header-nav{
     z-index: 10;
-    background: #ff0050;
+    background: #e73e3a;
 }
 .header-nav nav {
     display: flex;
@@ -123,7 +123,7 @@ header.active .header-nav-wrap{
 
 @media (min-width:767px){
     header{
-        border-color: #be003c;
+        border:none;
     }
     .header-nav{
         padding:15px 0;
@@ -147,12 +147,12 @@ header.active .header-nav-wrap{
 
 .sc-banner{
     padding:50px 0;
-    background: #ff0050;
+    background: #e73e3a;
     color: #fff;
 }
 
-.sc-banner.blue{
-    background: #0077ff;
+.sc-banner.dark{
+    background: #960b08;
 }
 
 main{
@@ -160,8 +160,6 @@ main{
 }
 
 .sc-land{
-    background: #0077ff;
-    color: #fff;
     padding:25px 0;
 }
 @media (min-width:768px){
@@ -178,7 +176,7 @@ main{
 }
 
 .sc-contact{
-    background: #ff0050;
+    background: #e73e3a;
     color: #fff;
 }
 .sc-contact a{
